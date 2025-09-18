@@ -1,5 +1,5 @@
 import { Link } from 'expo-router';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { Image, StyleSheet, Text, View } from 'react-native';
 
 export default function Index() {
   return (
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   },
   button: {
     width: 100,
-    backgroundColor: "#56bde6ff",
+    backgroundColor: "#000",
     padding: 15,
     borderRadius: 10,
     alignItems: "center",
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center"
   },
-  link: { marginTop: 20, textAlign: "center", color: "#28a745" },
+  link: { marginTop: 20, textAlign: "center", color: "#222" },
   imagestyle: { 
     width: 120,
     height: 120,
